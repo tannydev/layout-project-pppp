@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,900;1,400&display=swap');
+
+
+*{
+	margin: 0;
+	padding: : 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+
+header{
+	
+	background: url(../images/sunset-3084651_640.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+	padding: 15px 0;
+	min-height: 700px;
+     background-color: #cba7a7c7;
+    background-blend-mode: color-burn;
+	
+}
+.container{
+	margin: auto;
+	width: 1200px;
+    
+}
+
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.logo{
+	max-width: 20%;
+	flex-basis: 20%
+}															
+.logo h2{
+	color: #fff;
+	font-size: 20px;
+    text-transform: uppercase;
+}
+.logo span{
+	display: block;
+	font-weight: 400;
+	font-size: 15px
+
+}
+nav{
+	max-width: 80%;
+	flex-basis: 80%;
+}
+nav ul{
+	display: flex;
+	justify-content:flex-end;
+	flex-wrap: wrap;
+	
+}
+nav ul li{
+	 list-style: none;
+    
+}
+nav ul li a{
+	color: #fff;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 2px solid #fff0;
+    border-radius: 30px;
+}
+nav ul li a:hover{
+	 border: 2px solid white;
+
+}
+nav ul li:last-child a{
+    border: 2px solid white;
+    border-radius: 30px;
+} 
+
+
+.banner-contant{
+	text-align: center;
+	max-width: 100%;
+	flex-basis: 100%;
+	padding: 150px;
+}
+.banner-contant h3{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 600;
+	font-style: italic;
+}
+.banner-contant span{
+	width: 100px;
+	display: block;
+	height: 5px;
+	background: red;
+	margin: auto;
+	margin: 25px auto 0;
+}
+.banner-contant h1{
+	color: #fff;
+	font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.banner-contant a{
+	background: red;
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	display: inline-block;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border-radius: 30px;
+	margin-top: 20px;
+	
+}
+
+.banner_section{
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
+
+.image1{
+	
+	width: 50%;
+  float: left;
+  
+}
+.image1 img{
+  width: 100%;
+   padding: 50px;
+}
+.image1 h2{
+	font-size: 30px;
+	text-align: center;
+    color: #6b6b6b;
+    letter-spacing: 2px;
+}
+.image1 h3{
+	font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #6b6b6b;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.second_row{
+	text-align: center;
+	max-width: 100%;
+	flex-basis: 100%;
+	
+
+}
+.second_row h3{
+	font-size: 40px;
+	text-decoration: none;
+	padding-top: 100px;
+}
+.second_row span{
+	width: 80px;
+	display: block;
+	height: 5px;
+	background: red;
+	margin: auto;
+    margin-top: 50px;
+}
+
+.image2{
+	width: 50%;
+  float: right;
+}
+
+.image2 img{
+  width: 100%;
+   padding: 50px;  
+}
+.image2 h2{
+	font-size: 30px;
+    text-align: center;
+    color: #6b6b6b;
+    letter-spacing: 2px;
+}
+.image2 h3{
+	font-size: 20px;
+	text-align: center;
+	 margin-top: 10px;
+	color: #6b6b6b;
+	letter-spacing: 2px;
+	 font-weight: 400;
+}
+.image1 a{
+	background: red;
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	display: inline-block;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-left: 150px
+}
+.image2 a{
+	background: red;
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	display: inline-block;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-left: 150px
+}
+
+
+.explore_section{
+	background-image: url(../images/lazoor-lake-5334847_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #6f6969c7;
+    background-blend-mode: color-burn;
+    padding: 150px 0;
+    margin-top: 100px;
+}
+
+.logo2{
+	width: 50%;
+    float: right;
+    overflow: hidden;
+
+}
+.logo2 h1{
+	color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1;
+
+}
+.logo2 h4{
+	font-size: 20px;
+	color: #fff;
+	margin-top: 30px;
+
+}
+.logo2 span{
+	display: block;
+    height: 3.5px;
+    width: 80px;
+    background: red;
+    margin-top: 15px;
+}
+.logo2 a{
+	background: red;
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	display: inline-block;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+.flex-end{
+	justify-content: flex-end;
+}
+
+
+
+.end_section{
+	padding: 100px 0;
+
+}
+.col-1-3{
+	flex-basis: 33.33%;
+	min-width: 33.33%
+   padding: 10px;
+}
+.col-1-3 h1{
+	margin-top: 50px;
+}
+.col-1-3 span{
+	display: block;
+    height: 3.5px;
+    width: 80px;
+    background:red;
+    margin: 30px 0;
+}
+
+.col-1-3 h4{
+	margin: 20px 0;
+	line-height: 2;
+}
+.col-1-3 a{
+	background: red;
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	display: inline-block;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border-radius: 30px;
+	margin-top: 10px;
+}
+.col-1-3 img{
+	padding: 10px;
+
+
+}
+
+.small{
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+}
+.large{
+	height: 400px;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+.footer_section{
+	background-color:#000000d9;
+	height: 100px;
+	padding-top: 10px;
+}
+p{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	margin-top: 25px;
+}
